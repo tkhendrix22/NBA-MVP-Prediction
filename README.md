@@ -53,9 +53,9 @@ Please full evaluation breakdown, please check out my [Deployed Model](https://t
 ```
 ├── Data
 ├── Images
-├──.DS_Store
 ├──.gitignore
 ├── MVP Prediction Notebook.ipynb
+├── MVP Presentation.pdf
 ├── README.md
 ├── Streamlit.py
 ├── file1.csv
@@ -63,7 +63,6 @@ Please full evaluation breakdown, please check out my [Deployed Model](https://t
 └── requirements.txt
 
 ```
-
 
 
 
