@@ -2,8 +2,7 @@
 
 ![michael-jordan-mvp-1998](https://user-images.githubusercontent.com/113871039/210287850-a40ad38f-1b1c-42d6-a624-4d82cb120547.jpeg)
 
-## Deployed Model [
-](https://tkhendrix22-nba-mvp-prediction-streamlit-4s7b44.streamlit.app/)
+
 
 by: Troy Hendrickson
 
@@ -22,8 +21,7 @@ The data set included over 33 columns and over 7,000 rows of data that included 
 # Exploratory Data Analysis
 While cleaning the data by dropping any duplicates that were included in the merge and dropping any null values that occured as well, some exploratory data analysis (EDA) was done to see exactly what MVP's in past have looked like compared to the rest of the league. The advanced stats also helped to determine the best defensive rated players in the league per year to see if defense is something that is taken into account when choosing an MVP. The data also showed that just because a player scores a lot during a season also doesn't mean that they are a shoe in to become an MVP as well.  
 ![defense](https://user-images.githubusercontent.com/113871039/210636557-b095e813-78da-4d91-b38d-4a3ff6ed5aa8.png)
-![rbs mvp](https://user-images.githubusercontent.com/113871039/210636640-23acd906-c034-4217-992b-dd02a6c5c557.png)
-![apg mvp](https://user-images.githubusercontent.com/113871039/210636666-314cf866-403a-420b-8ed2-fb2473581853.png)
+
 ![scoring title](https://user-images.githubusercontent.com/113871039/210636708-363626e1-3ad4-472d-aadf-31438a70afa9.png)
 
 ## Handling Imbalanced Data
@@ -38,10 +36,8 @@ The 8 different models that were:
 
 The reason the first model was chosen is that even though there were other models that had better recall scores, the false positives were a lot higher than the first model. The first model gave the best of bost worlds in which it produced a good recall score and showed to have the least amount of false negatives and false positives. 
 
+![confusion mtx](https://user-images.githubusercontent.com/113871039/210649888-e84e1ba2-7475-4fda-a7a1-893e5e79e928.png)
 
-<p align="center">
-    <img width="200" src="http://material-bread.org/logo-shadow.svg](https://user-images.githubusercontent.com/113871039/210643639-b3522dcb-42f7-417f-8bbb-871f825e677e.png)" alt="Confusion Matrix">
-</p>
 
 # Limitations & Next Steps
 Some of the limitations that were faced while doing this project is team performance. Almost always a player becomes MVP not only because they themselves are great, but their teams are great too as a result. It was hard to predict who will be MVP this year because the most recent data was only up to November 10th. Teams are known to go on hot or cold streaks throughout the 82 game season so it is tough to predict if a team that started out doing well will continue to do so and vice versa. Same concept goes with players in which some players start the season out very hot and cool off throughout the season and vice versa. This can also result in recency bias in which most fans will gravitate towards a player that is playing well right now. 
@@ -52,4 +48,4 @@ Out of the 9 MVPs in the data set, the model that was chosen predicted to be 88%
 
 # For More Information
 
-Please full evaluation breakdown, please visit my 
+Please full evaluation breakdown, please check out my [Deployed Model](https://tkhendrix22-nba-mvp-prediction-streamlit-4s7b44.streamlit.app/)
