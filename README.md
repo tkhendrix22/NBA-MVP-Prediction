@@ -49,7 +49,8 @@ Out of the 9 MVPs in the data set, the model that was chosen predicted to be 88%
 
 Please full evaluation breakdown, please check out my [Deployed Model](https://tkhendrix22-nba-mvp-prediction-streamlit-4s7b44.streamlit.app/)
 
-
+## Repository Structure
+```
 ├── Data
 ├── Images
 ├──.DS_Store
@@ -60,4 +61,9 @@ Please full evaluation breakdown, please check out my [Deployed Model](https://t
 ├── file1.csv
 ├── finalpipe1.pkl
 └── requirements.txt
+
+```
+
+
+
 
