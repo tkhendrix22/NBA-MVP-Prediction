@@ -45,7 +45,7 @@ Another limitation can be injuries and load management. Players get hurt all the
 # Observations & Conclusions
 Out of the 9 MVPs in the data set, the model that was chosen predicted to be 88% correct. However, all the models for the most part had players that stood out the most while predicting this years MVP. Nikola Jokic looked to be the top winner of the award in which he showed up first on 6 out the 8 models that were ran. Giannis Antetokounmpo showed up second in 5 out of the 8 models and 3rd was a mix up. The model that was chosed had Luka Doncic as 3rd which is the name we will go with for 3rd place.
 
-# For More Information
+# Predict your own MVP!
 
 Please full evaluation breakdown, please check out my [Deployed Model](https://tkhendrix22-nba-mvp-prediction-streamlit-4s7b44.streamlit.app/)
 
