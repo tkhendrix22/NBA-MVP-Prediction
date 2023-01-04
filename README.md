@@ -25,7 +25,6 @@ While cleaning the data by dropping any duplicates that were included in the mer
 ![scoring title](https://user-images.githubusercontent.com/113871039/210636708-363626e1-3ad4-472d-aadf-31438a70afa9.png)
 
 ## Handling Imbalanced Data
-![imbalancemvp](https://user-images.githubusercontent.com/113871039/210635706-5b75bd9b-a389-4f8a-a351-5a16c925c11c.png)
 Being that the data set only included 9 MVP's out of over 5,000 players in the data set, it is clear that the data is supremely imbalanced. There were about 3 different techniques I used throughout the modeling phase to handle the imbalnce which included over-sampling, under-sampling, and SMOTE. I used all three of these different techniques sporadically to determine the best model. 
 
 # Modeling
