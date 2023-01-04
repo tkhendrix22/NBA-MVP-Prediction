@@ -1,8 +1,0 @@
-streamlit==1.10.0
-imbalanced-learn==0.10.0
-keras== 2.9.0
-scikit-image==0.19.3
-tensorflow-datasets==4.7.0
-tensorflow-estimator==2.9.0
-tensorflow-metadata==1.11.0
-tensorflow==2.9.2
