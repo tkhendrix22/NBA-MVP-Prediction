@@ -62,6 +62,11 @@ st.write("---")
 team = st.selectbox('Select team:',
                     df['team'].unique())
 'You selected: ', team
+if st.button('see player stats'):
+    st.write(df[(df['player_name'] == names) & (df['team'] == team)][['pts','ast','reb','total_games','win_pct']])
+
+
+
 
 st.write('---')
 points = st.slider('pts', 0, 40, 1)
@@ -88,6 +93,10 @@ wp = st.slider('win_pct',1,100,1) /100
 st.write(wp, 'Win Percentage')
 'You selected: ', wp
 
+st.write("---")
+newteam = st.selectbox('Select  new team:',
+                    df['team'].unique())
+
 
 if st.button('Predict'):
     
@@ -101,6 +110,7 @@ if st.button('Predict'):
     vec['reb'] = rebs
     vec['total_games'] = games
     vec['win_pct'] = wp
+    vec['team'] = newteam
     st.write(vec)
     
     
