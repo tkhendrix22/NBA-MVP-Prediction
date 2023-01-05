@@ -34,7 +34,7 @@ with open('finalpipe1.pkl' , 'rb') as f:
 
 # Add title
 st.title("MVP Prediction Stats :trophy:")
-st.image("lebron-james-.jpeg", use_column_width= 'always')
+st.image("Images/lebron-james-.jpeg", use_column_width= 'always')
 
 # Add subtitle
 st.markdown("Enter the following statistics for any player and receive a MVP prediction!")
@@ -43,7 +43,7 @@ st.markdown("Enter the following statistics for any player and receive a MVP pre
 
 # Add sidebar
 st.sidebar.markdown("## Predict what it will take for your favorite player to win NBA MVP")
-st.sidebar.image("946185_nba-mvp-meta.png", width = 200)
+st.sidebar.image("Images/946185_nba-mvp-meta.png", width = 200)
 st.sidebar.caption("About This App:")
 st.sidebar.caption("Using a machine learning model, this application allows users to provide their own inputs and 2022 season data to predict this years MVP.")
 
